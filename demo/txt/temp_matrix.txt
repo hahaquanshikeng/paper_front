@@ -1,0 +1,9 @@
+	cid: p1	cid: p2	cid: p3	cid: p4
+	title: Parameter Selection in Particle Swarm Optimization	title: Particle swarm optimization	title: A new optimizer using particle swarm theory	title: A modified particle swarm optimizer
+	authors: aa;bb;cc	authors: bb;cc;dd	authors: aa;bb	authors: bb;cc;ee
+	venue: Evolutionary Programming	venue: Proceedings of ICNN'95 - International Conference on Neural Networks	venue: MHS'95. Proceedings of the Sixth International Symposium on Micro Machine and Human Science	venue: 1998 IEEE International Conference on Evolutionary Computation Proceedings. IEEE World Congress on Computational Intelligence (Cat. No.98TH8360)
+Gene: f79f66de-e6a7-4a92-a9c2-4b2c5c46d1a5	1	1	1	1
+Gene: a1cedbb6-0c4b-4608-94fc-75b9a3fd1a8a	1	0	0	0
+Gene: 4afe8692-d497-4a81-bf47-9f803a0456f1	0	0	1	0
+Gene: c4953063-f804-478e-9cbe-04a795a7f54b	1	1	1	1
+Gene: a09d4987-bdda-4e84-be15-2f2f9413265c	1	1	0	1

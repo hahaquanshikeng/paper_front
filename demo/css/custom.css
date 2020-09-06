@@ -1,0 +1,36 @@
+.ref_instance{
+  border-bottom: solid 1px gainsboro;
+  cursor: pointer;
+  transition:all 0.3s linear;
+  border-radius: 3px;
+}
+.ref_instance:hover{
+  background-color: #c2d5ee;
+  transition:all 0.3s linear;
+}
+.hide{
+  display: none;
+}
+.angle-double-button{
+  width:30px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.angle-double-button:hover{
+  background-color:#e6e6e6 ;
+  transition: all 0.1s linear;
+}
+
+.angle-double-container-down{
+  position: absolute;
+  top:0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.sidebar-wrapper-down{
+  position: relative;
+  height: 20px;
+}
