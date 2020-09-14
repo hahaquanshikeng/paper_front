@@ -22561,7 +22561,7 @@ var Clustergrammer =
 	  /* new string with click instructions */
 	  // TODO列标记点击展示的悬停提示
 	  // 暂时隐藏
-	  // var cat_string = '<div>' + cat_title + ': '+ cat_name +
+	  // var cat_string = '<div style="max-width:500px">' + cat_title + ': '+ cat_name +
 	  //                  '</div> <div> <br>点击展示此类别下条目</div>';
 	  var cat_string = '<div style="max-width:500px">' + cat_title + ': ' + cat_name + '</div>';
 
@@ -22775,7 +22775,7 @@ var Clustergrammer =
 	    var root_tip_selector = params.viz.root_tips.replace('.', '');
 	    var class_string = root_tip_selector + ' d3-tip ' + root_tip_selector + '_row_cat_tip';
 	    return class_string;
-	  }).direction('e').offset([5, 0]).style('display', 'none').html(function (d) {
+	  }).style('background-color', 'rgba(194,213,238,0.5)').style('font-weight', 'bold').direction('e').offset([5, 0]).style('display', 'none').html(function (d) {
 	    return cat_tooltip_text(params, d, this, 'row');
 	  });
 
@@ -22836,8 +22836,9 @@ var Clustergrammer =
 	          if (d3.select(this).classed('cat_strings')) {
 
 	            var found_names = get_cat_names(params, d, this, 'row');
-
-	            $(params.root + ' .dendro_info').modal('toggle');
+	            // TODO行标记点击展示
+	            // 暂时隐藏
+	            // $(params.root+' .dendro_info').modal('toggle');
 	            var group_string = found_names.join(', ');
 	            d3.select(params.root + ' .dendro_info input').attr('value', group_string);
 	          }

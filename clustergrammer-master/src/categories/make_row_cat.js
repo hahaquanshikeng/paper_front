@@ -58,6 +58,8 @@ module.exports = function make_row_cat(cgm, updating=false) {
                          root_tip_selector + '_row_cat_tip';
       return class_string;
     })
+    .style('background-color','rgba(194,213,238,0.5)')
+    .style('font-weight','bold')
     .direction('e')
     .offset([5,0])
     .style('display','none')
@@ -143,8 +145,9 @@ module.exports = function make_row_cat(cgm, updating=false) {
               if (d3.select(this).classed('cat_strings')){
 
                 var found_names = get_cat_names(params, d, this, 'row');
-
-                $(params.root+' .dendro_info').modal('toggle');
+                // TODO行标记点击展示
+                // 暂时隐藏
+                // $(params.root+' .dendro_info').modal('toggle');
                 var group_string = found_names.join(', ');
                 d3.select(params.root+' .dendro_info input')
                   .attr('value', group_string);

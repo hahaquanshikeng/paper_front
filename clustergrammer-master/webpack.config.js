@@ -11,7 +11,7 @@ module.exports = [
       devtool: DEBUG ? 'cheap-module-source-map' : false,
       target: 'web',
       output: {
-        path: "../demo",
+        path: "../demo/js",
         filename: 'clustergrammer.js',
         libraryTarget: 'var',
         library: 'Clustergrammer'
